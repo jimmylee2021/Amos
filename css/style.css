@@ -8,10 +8,17 @@ body {
   background: #1e1e1e;
   color: #fff;
   font-family: "Aeonik";
-  height: 200vh;
+}
+main {
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 a{
   text-decoration: none;
+}
+nav a.hover {
+   color: #473BF0;
 }
 
 header {
@@ -70,6 +77,7 @@ nav.nav.active a {
   font-size: 20px;
   text-decoration: wavy;
 }
+
 #menu-bar {
   font-size: 1.5rem;
   color: #fff;
@@ -218,6 +226,43 @@ nav.nav.active a {
    line-height: 40px;
    font-size: 15px;
 }
+.about-content {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.about-content-txt {
+  max-width: 300px;
+  margin-top: 20px;
+}
+.about-txt {
+    font-size: 20px;
+    width: 300px;
+}
+.about-content p {
+  font-size: 12px;
+  text-align: justify;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+.about-content-txt > div > h1 {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+   margin-top: 20px;
+  line-height: 100.99%;
+}
+.about-content-txt > div > p {
+   margin-top: 20px;
+}
+.sample {
+  width: 300px;
+  height: 200px;
+  margin-top: 20px;
+  background: #D9D9D9;
+}
 
 @media only screen and (min-width: 991px) {
   nav.nav {
@@ -334,4 +379,45 @@ nav.nav.active a {
      font-size: 60px;
      line-height: 150.99%;
   }
+  .about-txt {
+    font-size: 50px;
+    width: 600px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100.99%;
+  }
+  .sample {
+     width: 600px;
+     height: 400px;
+     margin-top: 20px;
+     background: #D9D9D9;
+  }
+  
+  .about-content {
+     max-width: 700px;
+  }
+  .about-content-txt {
+     max-width: 600px;
+     margin-top: 20px;
+  }
+  .about-content p {
+    font-size: 24px;
+    text-align: justify;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+  }
+  .about-content-txt > div {
+     margin-top: 30px;
+  }
+  .about-content-txt > div > h1 {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100.99%;
+  }
+  .about-content-txt > div > p {
+     margin-top: 20px;
+  }
+
 }
