@@ -216,10 +216,14 @@ nav.nav.active a {
 }
 .row-1 h1 {
     font-size: 20px;
+    font-weight: 250;
 }
 .row-1 p {
    font-size: 10px;
    margin-top: 20px;
+   font-style: normal;
+   font-weight: 250;
+   letter-spacing: 1.023px;
 }
 .links a {
    color: #fff;
@@ -370,6 +374,8 @@ nav.nav.active a {
   }
   .row-1 p {
      font-size: 20px;
+     font-weight: 250;
+     font-style: normal;
   }
  .row {
    margin: 50px;
