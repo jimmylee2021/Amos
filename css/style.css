@@ -179,30 +179,27 @@ nav.nav.active a {
 }
 .testi-content {
   margin: 20px;
-  padding: 43px 46px;
+  padding: 23.91px 25.578px;
   width: 300px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  height: 250.66px;
   background: #1B1A1B;
   border-radius: 28.2788px;
 }
 .testi-img-div {
   background: #D9D9D9;
-  border-radius: 41.443px;
+  border-radius: 23.044px;
+  width: 150.47px;
+  height: 73.47px;
 }
 .testi-text {
-   margin-top: 20px;
+   margin-left: 10px;
 }
 .testi-text h2 {
-   font-size: 15px;
+   font-size: 10px;
 }
 .testi-text p {
  
-  font-size: 12.627px;
+  font-size: 8.627px;
   line-height: 19px;
 }
 .footer {
@@ -344,12 +341,14 @@ nav.nav.active a {
   .testi-content {
     flex-direction: row;
     text-align: left;
+    padding: 43px 46px;
     width: 521.54px;
     height: 236.66px;
   }
   .testi-img-div {
     width: 250.13px;
     height: 132.13px;
+    border-radius: 41.443px;
   }
   .testi-text {
      margin: 15px;
