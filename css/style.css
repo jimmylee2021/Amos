@@ -4,6 +4,16 @@
   box-sizing: border-box;
   transition: 0.2s all linear;
 }
+
+@font-face {
+  font-family: 'Aeonik';
+  src: url('webfont.eot'); /* IE9 Compat Modes */
+  src: url('webfont.eot?#iefix') format('embedded-opentype'),
+       url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
 body {
   background: #1e1e1e;
   color: #fff;
@@ -263,6 +273,18 @@ nav.nav.active a {
   height: 200px;
   margin-top: 20px;
   background: #D9D9D9;
+}
+.works-page {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin: 50px;
+}
+.works-page h1 {
+  font-size: 96.339px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100.99%;
 }
 
 @media only screen and (min-width: 991px) {
