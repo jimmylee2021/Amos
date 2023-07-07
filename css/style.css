@@ -4,16 +4,6 @@
   box-sizing: border-box;
   transition: 0.2s all linear;
 }
-
-@font-face {
-  font-family: 'Aeonik';
-  src: url('webfont.eot'); /* IE9 Compat Modes */
-  src: url('webfont.eot?#iefix') format('embedded-opentype'),
-       url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
-       url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
-       url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
-}
 body {
   background: #1e1e1e;
   color: #fff;
@@ -40,7 +30,7 @@ header {
 
 header nav.nav.active {
   position: fixed;
-  top: 70px;
+  top: 60px;
   right: 0;
   left: 0;
 }
@@ -116,9 +106,6 @@ nav.nav.active a {
   font-size: 12px;
 }
 
-.color {
-  color: #fe4a49;
-}
 .btn {
   padding: 14px 56px;
   gap: 10px;
@@ -274,17 +261,111 @@ nav.nav.active a {
   margin-top: 20px;
   background: #D9D9D9;
 }
-.works-page {
+.works-content {
    display: flex;
    flex-direction: column;
    justify-content: center;
-   margin: 50px;
+   align-items: center;
+   max-width: 300px;
 }
-.works-page h1 {
-  font-size: 96.339px;
+.works-heading {
+  font-size: 30.339px;
   font-style: normal;
   font-weight: 700;
   line-height: 100.99%;
+}
+.works-img-bx {
+   width: 300px;
+   margin-top: 30px;
+}
+.works-img-bx p,
+.works-img-bx span{
+  font-style: italic;
+  font-weight: 400;
+  line-height: 68px;
+  letter-spacing: 0.9px;
+}
+.works-img-bx img {
+   max-width: 100%;
+}
+ iframe {
+   width:100%;
+   height: 300px;
+   border-radius: 15px;
+}
+.works-roles {
+   margin-top: 20px;
+}
+.works-roles h2 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0.9px;
+}
+.works-roles h2 span {
+   font-style: italic;
+   line-height: 28px;
+   text-align: justify;
+}
+.pro-bx {
+   margin-top: 50px;
+}
+.pro-bx h1 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100.99%;
+}
+.pro-bx h2 {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 10px;
+  line-height: 100.99%;
+}
+.pro-bx a {
+  font-style: normal;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: underline;
+}
+.pro-bx p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 20px;
+  text-align: justify;
+  line-height: 28px;
+  letter-spacing: 0.9px;
+}
+.pro-bx li {
+   font-size: 14px;
+   margin-top: 10px;
+   padding: 0;
+}
+
+@media only screen and (min-width: 700px) {
+   .works-content {
+     max-width: 700px;
+   }
+   .works-img-bx {
+     width: 700px;
+   }
+   .pro-bx p {
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 38px;
+    letter-spacing: 0.9px;
+  }
+  .pro-bx li {
+     font-size: 19px;
+     margin-top: 10px;
+     padding: 0;
+  }
 }
 
 @media only screen and (min-width: 991px) {
@@ -446,5 +527,85 @@ nav.nav.active a {
   .about-content-txt > div > p {
      margin-top: 20px;
   }
+  .works-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 950px;
+ }
+ .works-heading {
+   font-size: 96.339px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 100.99%;
+ }
+ .works-img-bx {
+    width: 950px;
+    margin-top: 30px;
+ }
+ .works-img-bx p, span{
+   font-size: 30px;
+   font-style: italic;
+   font-weight: 400;
+   line-height: 68px;
+   letter-spacing: 0.9px;
+ }
+ .works-img-bx img {
+    max-width: 100%;
+ }
+  iframe {
+    width:100%;
+    height: 450px;
+    border-radius: 15px;
+ }
+ .works-roles {
+    margin-top: 20px;
+ }
+ .works-roles h2 {
+   font-size: 25px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 48px;
+   letter-spacing: 0.9px;
+ }
+ .works-roles h2 span {
+    font-style: italic;
+ }
+ .pro-bx {
+    margin-top: 50px;
+ }
+ .pro-bx h1 {
+   font-size: 36px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 100.99%;
+ }
+ .pro-bx h2 {
+   font-size: 36px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 100.99%;
+ }
+ .pro-bx a {
+   font-style: normal;
+   font-weight: 700;
+   color: #ffffff;
+   text-decoration: underline;
+ }
+ .pro-bx p {
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 400;
+   margin-top: 20px;
+   line-height: 48px;
+   letter-spacing: 0.9px;
+ }
+ .pro-bx li {
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 0;
+ }
+  
 
 }
