@@ -272,6 +272,7 @@ nav.nav.active a {
   font-size: 30.339px;
   font-style: normal;
   font-weight: 700;
+  width: 300px;
   line-height: 100.99%;
 }
 .works-img-bx {
@@ -284,6 +285,9 @@ nav.nav.active a {
   font-weight: 400;
   line-height: 68px;
   letter-spacing: 0.9px;
+}
+.works-img-bx img {
+   max-width: 100%;
 }
 .works-img-bx img {
    max-width: 100%;
@@ -344,12 +348,41 @@ nav.nav.active a {
    margin-top: 10px;
    padding: 0;
 }
+.course-bx {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.cou-div {
+  width: 300px;
+}
+.cou-div img {
+  max-width: 300px;
+}
+.cou-div:nth-child(2) {
+  margin-top: 10px;
+}
+.cou-div p {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.72px;
+}
+
 
 @media only screen and (min-width: 700px) {
    .works-content {
      max-width: 700px;
    }
    .works-img-bx {
+     width: 700px;
+   }
+   .works-roles {
+    margin-top: 20px;
+    width: 700px;
+ }
+   .pro-bx h1 {
      width: 700px;
    }
    .pro-bx p {
@@ -365,6 +398,27 @@ nav.nav.active a {
      font-size: 19px;
      margin-top: 10px;
      padding: 0;
+  }
+  .course-bx {
+    display: flex;
+    margin-top: 20px;
+  }
+  .cou-div {
+    width: 300px;
+  }
+  .cou-div img {
+    max-width: 300px;
+  }
+  .cou-div:nth-child(2) {
+    margin-left: 20px;
+    margin-top: 0;
+  }
+  .cou-div p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.72px;
   }
 }
 
@@ -538,6 +592,7 @@ nav.nav.active a {
    font-size: 96.339px;
    font-style: normal;
    font-weight: 700;
+   width: 950px;
    line-height: 100.99%;
  }
  .works-img-bx {
@@ -561,6 +616,7 @@ nav.nav.active a {
  }
  .works-roles {
     margin-top: 20px;
+    width: 950px;
  }
  .works-roles h2 {
    font-size: 25px;
@@ -579,6 +635,7 @@ nav.nav.active a {
    font-size: 36px;
    font-style: normal;
    font-weight: 700;
+   width: 950px;
    line-height: 100.99%;
  }
  .pro-bx h2 {
@@ -606,6 +663,24 @@ nav.nav.active a {
     margin-top: 10px;
     padding: 0;
  }
-  
-
+ .course-bx {
+   display: flex;
+ }
+ .cou-div {
+   width: 450px;
+ }
+ .cou-div img {
+   max-width: 420px;
+ }
+ .cou-div:nth-child(2) {
+  margin-left: 20px;
+  margin-top: 0;
+}
+.cou-div p {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.72px;
+}
 }
