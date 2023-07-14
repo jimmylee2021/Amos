@@ -1,3 +1,25 @@
+@import url("https://github.com/defi/site/blob/c63b7053e9fa2709b9d6e0e9848f7aae1918e39c/static/Aeonik-Regular.ttf");
+@import url("https://github.com/defi/site/blob/c63b7053e9fa2709b9d6e0e9848f7aae1918e39c/static/Aeonik-Bold.ttf");
+
+@font-face {
+  font-family: 'aeonik_trialbold';
+  src: url('aeoniktrial-bold-webfont.woff2') format('woff2'),
+       url('aeoniktrial-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'aeonik_trialbold_italic';
+  src: url('aeoniktrial-bolditalic-webfont.woff2') format('woff2'),
+       url('aeoniktrial-bolditalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
 * {
   padding: 0;
   margin: 0;
