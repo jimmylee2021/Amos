@@ -261,14 +261,13 @@ nav.nav.active a {
     width: 300px;
 }
 .about-content p {
-  font-size: 12px;
-  text-align: justify;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
 }
 .about-content-txt > div > h1 {
-  font-size: 15px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 700;
    margin-top: 20px;
@@ -588,7 +587,6 @@ nav.nav.active a {
   }
   .about-content p {
     font-size: 24px;
-    text-align: justify;
     font-style: normal;
     font-weight: 400;
     line-height: 48px;
