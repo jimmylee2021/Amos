@@ -116,6 +116,11 @@ nav.nav.active a {
   font-size: 30px;
   text-align: center;
 }
+.p-bx {
+  display: flex;
+   justify-content: center;
+   align-items: center;
+}
 .hero-txt p {
   font-family: "Aeonik";
   font-style: normal;
@@ -125,7 +130,10 @@ nav.nav.active a {
   margin-top: 30px;
   text-align: center;
   color: #ffffff;
-  font-size: 12px;
+  font-size: 15px;
+  width: 300px;
+  line-height: 28px;
+  word-wrap: break-word;
 }
 
 .btn {
@@ -479,9 +487,11 @@ nav.nav.active a {
     /* or 97px */
     color: #ffffff;
   }
+ 
   .hero-txt p {
     font-size: 34.1026px;
     line-height: 51px;
+    width: 800px;
   }
   .hero-txt p br {
     display: initial;
