@@ -124,13 +124,13 @@ nav.nav.active a {
 .hero-txt p {
   font-family: "Aeonik";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   /* or 150% */
   letter-spacing: 0.03em;
   margin-top: 30px;
   text-align: center;
   color: #ffffff;
-  font-size: 15px;
+  font-size: 20px;
   width: 300px;
   line-height: 28px;
   word-wrap: break-word;
