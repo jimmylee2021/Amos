@@ -1,25 +1,4 @@
-@import url("https://github.com/defi/site/blob/c63b7053e9fa2709b9d6e0e9848f7aae1918e39c/static/Aeonik-Regular.ttf");
-@import url("https://github.com/defi/site/blob/c63b7053e9fa2709b9d6e0e9848f7aae1918e39c/static/Aeonik-Bold.ttf");
-
-@font-face {
-  font-family: 'aeonik_trialbold';
-  src: url('aeoniktrial-bold-webfont.woff2') format('woff2'),
-       url('aeoniktrial-bold-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
-}
-@font-face {
-  font-family: 'aeonik_trialbold_italic';
-  src: url('aeoniktrial-bolditalic-webfont.woff2') format('woff2'),
-       url('aeoniktrial-bolditalic-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
-}
-
-
-
+@import url(https://db.onlinewebfonts.com/c/8f2a9d487bbbc60974cd132fc3a63862?family=Aeonik+Regular);
 * {
   padding: 0;
   margin: 0;
@@ -66,7 +45,7 @@ header.sticky {
 }
 
 .logo a {
-  color: #473bf0;
+  color:  #FE4A49;
   text-decoration: none;
   font-family: "Aeonik";
   font-style: normal;
@@ -89,7 +68,7 @@ nav.nav.active {
   top: 100px;
   width: 100%;
   border-top: 3px solid #000;
-  height: 50%;
+  height: 60%;
   box-shadow: 0.5rem 1rem rgba(0, 0, 0, 0.1);
   background: #1e1e1e;
 }
@@ -98,6 +77,9 @@ nav.nav.active a {
   color: #fff;
   font-size: 20px;
   text-decoration: wavy;
+}
+.state {
+  color: #FE4A49 !important;
 }
 
 #menu-bar {
@@ -214,16 +196,22 @@ nav.nav.active a {
   border-radius: 28.2788px;
 }
 .testi-img-div {
-  background: #D9D9D9;
-  border-radius: 23.044px;
   width: 170.47px;
-  height: 73.47px;
+  height: 93.47px;
+  margin-top: 10px;
+}
+.testi-img-div img {
+  width: 100%;
+  border-radius: 23.044px;
+  height: 100%;
 }
 .testi-text {
    margin-left: 10px;
+   margin-top: 15px;
 }
 .testi-text h2 {
    font-size: 10px;
+   color: #FE4A49;
 }
 .testi-text p {
  
